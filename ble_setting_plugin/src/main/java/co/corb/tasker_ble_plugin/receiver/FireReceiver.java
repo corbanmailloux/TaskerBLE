@@ -66,7 +66,7 @@ public final class FireReceiver extends BroadcastReceiver
         if (PluginBundleManager.isBundleValid(bundle))
         {
             final String message = bundle.getString(PluginBundleManager.BUNDLE_EXTRA_STRING_MESSAGE);
-            Log.d("Toasting", message);
+            //Log.d("Toasting", message);
             Toast.makeText(context, message, Toast.LENGTH_LONG).show();
         }
     }
