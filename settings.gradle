@@ -1,0 +1,1 @@
+include ':app', ':localeapi', ':ble_setting_plugin'
